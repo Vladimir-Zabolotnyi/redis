@@ -1,4 +1,4 @@
-package com.zabolotnyi.nosql.redis;
+package com.zabolotnyi.nosql.redis.jedis;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

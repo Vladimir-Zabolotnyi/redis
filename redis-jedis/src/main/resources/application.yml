@@ -1,7 +1,7 @@
 spring:
   output.ansi.enabled: always
   liquibase.enabled: true
-  application.name: redis
+  application.name: redis-jedis
   datasource:
     driver-class-name: org.hsqldb.jdbc.JDBCDriver
     url: jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1
