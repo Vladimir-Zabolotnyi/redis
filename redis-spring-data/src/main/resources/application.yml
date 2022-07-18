@@ -1,18 +1,6 @@
 spring:
   output.ansi.enabled: always
-  liquibase.enabled: true
   application.name: redis-spring-data
-  datasource:
-    driver-class-name: org.hsqldb.jdbc.JDBCDriver
-    url: jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1
-    username: sa
-    password:
-    type: com.zaxxer.hikari.HikariDataSource
-  jpa:
-    hibernate:
-      ddl-auto: none
-    show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.HSQLDialect
-        current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
+  redis:
+    host: localhost
+    port: 6379
